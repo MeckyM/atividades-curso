@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="./script.js" defer></script>
+    <title>Atividade 6</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content-tex">
+            <h1>Calculadora de IMC</h1>
+            <p><br></p>
+            <p><br>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa. <br>
+            <br>O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9. <br>
+            <br>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores. <br> <br> 
+            _____________________________________________________________________ <br>
+            </p>
+        </div>
+        <div class="content-imc">
+            <div class="content-altura">
+                <span>
+                    Altura
+                    <small>(ex.: 1,70)</small>
+                </span>
+                <input type="text" placeholder="ALtura">
+            </div>
+            <div class="content-peso">
+                <span>
+                    Peso
+                    <small>(ex.: 69,2)</small>
+                </span>
+                <input type="text" placeholder="Quilos">
+            </div>
+        </div>
+        <div>
+            <tr>
+                <td><button class="btn-cal" id="calcular">Calcular</button></td>
+                <td><button class="btn-clear" id="clear">Limpar</button></td>
+            </tr>
+            <thead>
+                <tr>
+                    <td colspan="3">Tabela de IMC</td>
+                </tr>
+            </thead>
+        </div>
+        <tbody>
+            <tr class="table-cal" style="background-color: rgb(255, 255, 255);">
+                <td>IMC</td>
+                <td>Classificação</td>
+                <td style="text-align: center;">obesidade
+                    <small>(grau)</small>
+                </td>
+            </tr>
+            <tr id="result1" style="background-color: rgb(255, 255, 255);">
+                <td>Menor que 18,5</td>
+                <td>Magreza</td>
+                <td style="text-align: center;">0</td>
+            </tr>
+            <tr id="result2" style="background-color: rgb(255, 255, 255);">
+                <td>Entre 18,5 e 24,9</td>
+                <td>Normal</td>
+                <td style="text-align: center;">0</td>
+            </tr>
+            <tr id="result3" style="background-color: rgb(255, 255, 255);">
+                <td>Entre 25 e 29,9</td>
+                <td>Sobrepeso</td>
+                <td style="text-align: center;">I</td>
+            </tr>
+            <tr id="result4" style="background-color: rgb(255, 255, 255);">
+                <td>Entre 30 e 39,9</td>
+                <td>Obesidade</td>
+                <td style="text-align: center;">II</td>
+            </tr>
+            <tr id="result5" style="background-color: rgb(255, 255, 255);">
+                <td>Maior que 40</td>
+                <td>Obesidade Grave</td>
+                <td style="text-align: center;">III</td>
+            </tr>
+            <div class="calc-result">
+                 <span>Seu IMC:</span>
+                <strong></strong>
+            </div>
+        </tbody>
+    </div>
+</body>
+</html>

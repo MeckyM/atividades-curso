@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-tex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.content-tex h1{
+    color: rgba(45, 7, 150, 0.712);
+}
+
+.content-tex p{
+    text-align: center;
+}
+
+.content-imc{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-altura{
+    display: flex;
+    flex-direction:column;
+}
+
+.content-altura span{
+    color: rgb(59, 8, 199);
+}
+
+.content-altura input{
+    padding: 5px;
+    border-style:ridge;
+    border-color: rgb(59, 8, 199);
+    border-radius: 10px;
+}
+
+.content-peso{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.content-peso span{
+    color: rgb(59, 8, 199);
+}
+
+.content-peso input{
+    padding: 5px;
+    border-style:ridge;
+    border-color: rgb(59, 8, 199);
+    border-radius: 10px;
+}
