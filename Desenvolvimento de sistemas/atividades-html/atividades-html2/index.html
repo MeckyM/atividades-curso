@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploração Completa de Tags HTML</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../atividades-html2/src/sem_fundo.png">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Exploração Completa de Tags HTML</h1>
+        <h2>Subtítulo do Projeto</h2>
+        <h3>Exemplo prático</h3>
+        <h4>Exemplo h4</h4>
+        <h5>Exemplo h5</h5>
+        <h6>Exemplo h6</h6>
+        <nav>
+            <ul>
+                <li><a href="#section1">Seção 1</a></li>
+                <li><a href="#section2">Seção 2</a></li>
+                <li><a href="#section3">Seção 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br><br><br>
+        <section id="section1">
+            <h2>Seção 1: Texto e Formatação</h2>
+            <p>Este é um exemplo de <strong>texto forte</strong> e <em>texto em itálico</em>.</p>
+            <p><u>Texto sublinhado</u> e <mark>texto destacado</mark> também podem ser úteis.</p>
+            <p>Texto pequeno com a tag <small>small</small>.</p>
+            <p>Exemplo de <sup>sobrescrito</sup> e <sub>subscrito</sub>.</p>
+            <blockquote>Um exemplo de citação em bloco.</blockquote>
+            <q>Uma citação inline.</q>
+            <p>Este é um <b>texto em negrito</b> para destacar uma parte importante.</p>
+            <p>Este é um <i>texto em itálico</i> para enfatizar algo sutil.</p>
+            <p>Este é um texto <ins>inserido</ins>, ou seja, adicionado ao documento.</p>
+            <p>Este é um texto <del>removido</del>, que foi excluído ou está errado.</p>
+            <p>Este é um trecho de código em linha: <code>print("Hello, World!")</code>.</p>
+            <pre>
+                Este é um bloco de código:
+                def func():
+                    return "Hello, World!"
+                </pre>
+        </section>
+
+        <br><br><br><br><br>
+        <hr>
+        <br><br><br><br><br>
+
+        <section id="section2">
+            <h2>Seção 2: Imagens, Tabelas e Listas</h2>
+            <figure>
+                <img src="../atividades-html2/src/macaco-mochila.jpg" width="15%" alt="macaco de macaco-mochila">
+                <figcaption>Legenda da imagem</figcaption>
+            </figure>
+
+            <table>
+                <caption>Tabela de Exemplo</caption>
+                <thead>
+                    <tr>
+                        <th>Coluna 1</th>
+                        <th>Coluna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dado 1</td>
+                        <td>Dado 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Rodapé da Tabela</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <ul>
+                <li>Item não ordenado 1</li>
+                <li>Item não ordenado 2</li>
+            </ul>
+
+            <ol>
+                <li>Item ordenado 1</li>
+                <li>Item ordenado 2</li>
+            </ol>
+
+            <dl>
+                <dt>Termo 1</dt>
+                <dd>Definição 1</dd>
+                <dt>Termo 2</dt>
+                <dd>Definição 2</dd>
+            </dl>
+        </section>
+
+        <br><br><br><br><br>
+        <hr>
+        <br><br><br><br><br>
+
+        <section id="section3">
+            <h2>Seção 3: Formulários e Multimídia</h2>
+            <form>
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br>
+        
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem"></textarea><br>
+        
+                    <label for="escolha">Escolha uma opção:</label>
+                    <select id="escolha" name="escolha">
+                        <option value="opcao1">Opção 1</option>
+                        <option value="opcao2">Opção 2</option>
+                    </select><br>
+        
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        
+            <h3>Vídeo Incorporado do YouTube</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4YizH2DQNxs" 
+            allowfullscreen>
+            </iframe>
+
+            <h3>Áudio Incorporado</h3>            
+            <embed src="../atividades-html2/src/luffy_sings.mp3">
+</audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Davi Machado</p>
+        <address>
+            Email: <a href="davi.carmac@gmail.com">davi.carmac@gmail.com</a><br>
+            Telefone: (46) 98421-8849
+        </address>
+    </footer>
+
+</body>
+</html>
