@@ -49,9 +49,7 @@
         <br><br><br><br><br>
         <hr>
         <br><br><br><br><br>
-
         <section id="section2">
-            <h2>Seção 2: Imagens, Tabelas e Listas</h2>
             <figure>
                 <img src="../atividades-html2/src/macaco-mochila.jpg" width="15%" alt="macaco de macaco-mochila">
                 <figcaption>Legenda da imagem</figcaption>
@@ -71,12 +69,30 @@
                         <td>Dado 2</td>
                     </tr>
                 </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="2">Rodapé da Tabela</td>
-                    </tr>
-                </tfoot>
-            </table>
+                
+                <section id="section3">
+                    <h2>Tabelas e Listas</h2>
+                    <table border="1">
+                        <caption>Tabela de Exemplo</caption>
+                        <thead>
+                            <tr>
+                                <th>Header 1</th>
+                                <th>Header 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Total</td>
+                                <td>2</td>
+                            </tr>
+                        </tfoot>
+                    </table>
 
             <ul>
                 <li>Item não ordenado 1</li>
@@ -139,6 +155,46 @@
             Telefone: (46) 98421-8849
         </address>
     </footer>
+           
+        </section>
+        
+        <aside>
+            <h3>Informações Adicionais</h3>
+            <p>Informações adicionais sobre o conteúdo da página.</p>
+        </aside>
+        
+        <details>
+            <summary>Mais Informações</summary>
+            <p>Detalhes adicionais sobre a página.</p>
+        </details>
+        
+        <h2>Desenho</h2>
+        <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
+    </main>
+    
+    <footer>
+        <address>
+            <p>Contato: <a href="mailto:exemplo@dominio.com">exemplo@dominio.com</a></p>
+        </address>
+        <p>&copy; 2024 Todos os direitos reservados.</p>
+    </footer>
+    
+    <map name="imagemMapa">
+        <area shape="rect" coords="34,44,270,350" href="https://www.example.com" alt="Exemplo">
+    </map>
+    <img src="https://via.placeholder.com/500x300">
 
+    <template id="myTemplate">
+        <p>Conteúdo do template.</p>
+    </template>
+    
+    <h2>Progresso e Medidor</h2>
+    <progress value="50" max="100">50%</progress>
+    <meter value="0.6">60%</meter>
+    
+    <script>
+        console.log('Página carregada');
+    </script>
+    <noscript>Seu navegador não suporta JavaScript.</noscript>
 </body>
 </html>
