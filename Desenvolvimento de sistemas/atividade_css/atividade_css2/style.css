@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: blue;
+}
+
+.img1 p{
+    background-color: green;
+}
+
+.img1{
+    background-image: url(./src/amimir.jpg);
+    height: 500px;
+}
+
+.img2{
+    background-image: url(./src/amimir2.jpg);
+    background-repeat: repeat-y;
+    height: 400px;
+}
+
+.img3{
+    background-image:url(./src/amimir3.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.img4{
+    background-image: url(./src/amimir4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.img5{
+    height: 5000px;
+    background-color: yellow;
+    background-image: url(./src/amimir.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed ;
+}
