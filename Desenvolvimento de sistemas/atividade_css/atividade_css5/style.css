@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    background-color: rgb(29, 250, 0);
+    height: 50px;
+}
+
+.nav-bar{
+    position: absolute;
+    background-color: rgb(42, 71, 165);
+    top: 50px;
+    width: 160px;
+    height: 870px;
+}
+
+.cont{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: blueviolet;
+    width: 800px;
+    height: 870px;
+}
+footer{
+    position: relative;
+    top: 861px;
+    height: 36px;
+    background-color: rgb(29, 250, 0);
+}

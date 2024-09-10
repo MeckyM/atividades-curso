@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(147, 198, 240);
+}
+
+.img1, .img2, .img3, .img4{
+    background-image: url(./src/images.jpg);
+    position: absolute;
+    height: 250px;
+    width: 150px;
+}
+
+.img1{   
+    left: 0;
+    top: 0;
+}
+
+.img2{
+    right: 0;
+    top: 0;
+}
+
+.img3{
+    left: 0;
+    top: 74%;    
+}
+
+.img4{
+    right: 0;
+    top: 74%;
+}

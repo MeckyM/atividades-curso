@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    background-color: rgb(29, 250, 0);
+    height: 50px;
+}
+
+.nav-bar{
+    background-color: rgb(42, 71, 165);
+    height: 30px;
+}
+
+.cont{
+    background-color: blueviolet;
+    height: 830px;
+}
+footer{
+    height: 36px;
+    background-color: rgb(29, 250, 0);
+}
