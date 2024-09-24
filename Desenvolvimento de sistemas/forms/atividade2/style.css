@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    background-color: rgb(224, 168, 12);
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.Login{
+    display: flex;
+    margin-bottom: 5px;
+
+    & .login {
+        margin-right: 80px;
+    }
+
+    & .input{
+    width: 180px;
+    }
+}
+
+.Senha{
+    display: flex;
+    margin-bottom: 10px;
+
+    & .senha{
+        margin-right: 79px;
+    }
+
+    & .input{
+        width: 180px;
+        }
+}
+
+.Status{
+    margin-bottom: 10px;
+
+    & .status{
+        margin-right: 75px;
+    }
+}
+
+.Tipo{
+    display: flex;
+    margin-bottom: 10px;
+
+    & .tipo{
+        margin-right: 90px;
+    }
+
+    & .select{
+        margin-right: 15px;
+    }
+}
+
+.data{
+    margin-right: 30px;
+}
+
+.Perfil{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    & .perfil{
+        margin-right: 82px;
+    }
+
+    & .select{
+        margin-right: 10px;
+    }
+}
+
+.observacao{
+    margin-bottom: 10px;
+    display: flex;
+
+    & .comentario{
+    margin-right: 30px;
+    margin-top: 30px;
+    }
+
+    & .observacoes{
+        height: 80px;
+        width: 250px;
+    }
+}
+
+
+.Modulo{
+    margin-bottom: 10px;
+
+    & .cima{
+        margin-left: 110px;
+        margin-bottom: 10px;
+    }
+
+    & .baixo{
+        margin-top: 10px;
+        margin-left: 110px;
+        margin-bottom: 20px;
+    }
+}

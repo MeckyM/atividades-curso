@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="card-login">
+            <header class="header">SISTEMA DE GESTÃO ACADÊMICA</header>
+            <h3>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h3>
+
+            <!-- Login e Senha -->
+            <div class="Login-Senha">
+                <div class="Login">
+                    <label class="login">Login</label>
+                    <input type="text" class="input">
+                </div>
+
+                <div class="Senha">
+                    <label class="senha">Senha</label>
+                    <input type="password" class="input">
+                </div>
+            </div>
+
+            <!-- Status -->
+            <div class="Status">
+                <label class="status">Status</label>
+                <select name="plataforma">
+                    <option>Nativo</option>
+                    <option>Inativo</option>
+                </select>
+            </div>
+
+            <!-- Tipos -->
+            <div class="Tipo">
+                <label class="tipo">Tipo</label>
+                <div class="select">
+                    <input type="radio">
+                    <label>Técnico</label>
+                </div>
+
+                <div class="select">
+                    <input type="radio" class="input">
+                    <label>Professor</label>
+                </div>
+
+                <div class="select">
+                    <input type="radio" class="input">
+                    <label>Aluno</label>
+                </div>
+            </div>
+
+            <!-- Data -->
+            <label class="data">Data Criação</label>
+            <input type="date">
+
+            <!-- Perfil -->
+            <div class="Perfil">
+                <label class="perfil">Perfil</label>
+                <div class="select">
+                    <input type="radio">
+                    <label>Convidados</label>
+                </div>
+
+                <div class="select">
+                    <input type="radio">
+                    <label>Administrador</label>
+                </div>
+            </div>
+
+            <!-- Observações -->
+            <div class="observacao">
+                <label class="comentario">Observações</label>
+                <textarea class="observacoes"></textarea>
+            </div>
+
+            <!-- Módulos -->
+            
+            <div class="Modulo">
+                
+                
+
+                <div class="cima">             
+                    <input type="checkbox">
+                    <label>Compras</label>
+                
+                    <input type="checkbox">
+                    <label>Biblioteca</label>
+                
+                    <input type="checkbox">
+                    <label>Acadêmico</label>
+                </div>
+
+                <label class="modulo">Módulo</label>
+
+                <div class="baixo">
+                    <input type="checkbox">
+                    <label>Documentação</label>
+                
+                    <input type="checkbox">
+                    <label>Recursos Humanos</label>
+                </div>
+
+            </div>
+
+            <div class="btns">
+                <button class="cadastrar">Cadastrar</button>
+                <button class="Excluir">Excluir</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
