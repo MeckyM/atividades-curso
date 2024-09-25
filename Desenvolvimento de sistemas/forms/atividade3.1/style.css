@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5%;
+}
+
+.container{
+    background-color: rgba(90, 255, 172, 0.411);
+    border: solid 0.2px;
+    height: 100vh;
+    padding: 5%;
+
+    & .title{
+        background-color: white;
+        border: solid 0.2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        width: 150px;
+        text-align: center;
+    }
+}
+
+.geral{
+    border: solid 0.2px;
+    padding: 1%;
+    height: 60%;
+
+    & .inputs{
+        display: flex;
+
+        & .data{
+            border: solid 0.2px;
+            width: 45%;
+            height: 10%;
+            margin: 3%;
+            padding: 1%;
+
+            & .input{
+                width: 250px;
+                margin-bottom: 1%;
+            }
+
+            & .your-profission{
+                width: 250px;
+                margin-bottom: 1%;
+            }
+        }
+        
+        & .local{
+            border: solid 0.2px;
+            width: 45%;
+            height: 10%;
+            margin: 3%;
+            padding: 1%;
+
+            & .input{
+                width: 250px;
+                margin-bottom: 1%;
+            }
+        }
+    }
+
+    & .age-group{
+        border: solid 0.2px;
+        height: 25%;
+        width: 94%;
+        margin: 3%;
+    }
+
+    & .coluna{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+}
+
