@@ -1,20 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     padding: 5%;
 }
 
-.container{
+.container {
     background-color: rgba(90, 255, 172, 0.411);
     border: solid 0.2px;
     height: 100vh;
     padding: 5%;
 
-    & .title{
+    & .title {
         background-color: white;
         border: solid 0.2px;
         margin-top: -10px;
@@ -24,57 +24,77 @@ body{
     }
 }
 
-.geral{
+.geral {
     border: solid 0.2px;
     padding: 1%;
-    height: 60%;
+    height: 65%;
 
-    & .inputs{
+    & .inputs {
         display: flex;
 
-        & .data{
+        & .data {
             border: solid 0.2px;
             width: 45%;
             height: 10%;
             margin: 3%;
             padding: 1%;
 
-            & .input{
+            & .input {
                 width: 250px;
                 margin-bottom: 1%;
             }
 
-            & .your-profission{
+            & .your-profission {
                 width: 250px;
                 margin-bottom: 1%;
             }
         }
-        
-        & .local{
+
+        & .local {
             border: solid 0.2px;
             width: 45%;
             height: 10%;
             margin: 3%;
             padding: 1%;
 
-            & .input{
+            & .input {
                 width: 250px;
                 margin-bottom: 1%;
             }
         }
     }
 
-    & .age-group{
+    & .age-group {
         border: solid 0.2px;
         height: 25%;
         width: 94%;
         margin: 3%;
+
+        & .coluna1 {
+            padding-top: 1%;
+            padding-left: 2%;
+            width: 50%;
+            height: auto;
+            float: left;
+        }
+
+        & .coluna {
+            padding-top: 3%;
+            width: 50%;
+            height: auto;
+            float: left;
+        }
     }
 
-    & .coluna{
-        width: 50%;
-        height: auto;
-        float: left;
+    & .sports {
+        border: solid 0.2px;
+        height: 38%;
+
+        & .table {
+            padding-top: 1%;
+            padding-left: 1%;
+        }
     }
+
+
 }
-
