@@ -5,19 +5,24 @@
 }
 
 body {
-    padding: 5%;
+    padding: 15%;
 }
 
 .container {
     background-color: rgba(90, 255, 172, 0.411);
     border: solid 0.2px;
-    height: 100vh;
-    padding: 5%;
+    height: 150vh;
+    padding: 7%;
+    background-image: url(./scr/macaco.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position:top left ;
+
 
     & .title {
         background-color: white;
         border: solid 0.2px;
-        margin-top: -10px;
+        margin-top: -0px;
         margin-left: 10px;
         width: 150px;
         text-align: center;
@@ -26,8 +31,16 @@ body {
 
 .geral {
     border: solid 0.2px;
-    padding: 1%;
-    height: 65%;
+    padding: 0.7%;
+    height: 64%;
+
+    & .title-g {
+        background-color: white;
+        border: solid 0.2px;
+        margin-left: 2px;
+        width: 150px;
+        text-align: center;
+    }
 
     & .inputs {
         display: flex;
@@ -36,8 +49,14 @@ body {
             border: solid 0.2px;
             width: 45%;
             height: 10%;
-            margin: 3%;
-            padding: 1%;
+            margin-top: 4%;
+            margin-bottom: 1%;
+            margin-left: 2%;
+            padding: 3%;
+            background-image: url(./scr/macaco.jpg);
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-position: right;
 
             & .input {
                 width: 250px;
@@ -54,8 +73,15 @@ body {
             border: solid 0.2px;
             width: 45%;
             height: 10%;
-            margin: 3%;
-            padding: 1%;
+            margin-top: 4%;
+            margin-bottom: 1%;
+            margin-left: 4%;
+            padding: 3%;
+            background-image: url(./scr/macaco.jpg);
+            background-repeat: no-repeat;
+            background-size: 100px;
+            background-position: right;
+
 
             & .input {
                 width: 250px;
@@ -66,12 +92,18 @@ body {
 
     & .age-group {
         border: solid 0.2px;
-        height: 25%;
+        height: 19%;
         width: 94%;
-        margin: 3%;
+        margin-top: 2%;
+        margin-left: 2%;
+        background-image: url(./scr/macaco.jpg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: right;
+
 
         & .coluna1 {
-            padding-top: 1%;
+            padding-top: 2%;
             padding-left: 2%;
             width: 50%;
             height: auto;
@@ -88,13 +120,55 @@ body {
 
     & .sports {
         border: solid 0.2px;
-        height: 38%;
+        height: 35%;
+        width: 94%;
+        margin-left: 2%;
+        margin-top: 3%;
+        background-image: url(./scr/macaco.jpg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: right;
 
         & .table {
-            padding-top: 1%;
+            padding-top: 50px;
             padding-left: 1%;
+            margin-bottom: 1%;
         }
     }
+}
 
+.comment {
+    border: solid 0.2px;
+    margin-top: 3%;
+    height: 30%;
+    padding-left: 1%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./scr/macaco.jpg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: right;
 
+    & .label {
+        background-color: white;
+        border: solid 0.2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        width: 150px;
+        height: 20px;
+        text-align: center;
+    }
+
+    & .texto {
+        height: 70%;
+        width: 65%
+    }
+}
+
+button {
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    margin-top: 20px;
+    border: solid 0.2px;
 }
